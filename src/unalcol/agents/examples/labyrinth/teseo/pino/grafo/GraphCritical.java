@@ -233,7 +233,7 @@ public class GraphCritical implements Graph
 
     public void sortedList(ArrayList<Node> q)
     {
-        Collections.sort(q, new Comparator()
+        Collections.sort(q, new Comparator<Object>()
         {
             @Override
             public int compare(Object o1, Object o2)
