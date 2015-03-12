@@ -8,6 +8,7 @@ import unalcol.agents.Agent;
 import unalcol.agents.AgentProgram;
 import unalcol.agents.examples.labyrinth.Labyrinth;
 import unalcol.agents.examples.labyrinth.LabyrinthDrawer;
+import unalcol.agents.examples.labyrinth.teseo.code47.Code47;
 import unalcol.agents.examples.labyrinth.teseo.pino.Pino;
 import unalcol.agents.examples.labyrinth.teseo.poni.Poni;
 import unalcol.agents.simulate.util.SimpleLanguage;
@@ -28,8 +29,8 @@ public class MultiTeseoMain {
      teseo[0] = new Pino();
      ((Pino) teseo[0]).setLanguage(getLanguage());
      
-     teseo[1] = new Poni();
-     ((Poni) teseo[1]).setLanguage(getLanguage());
+     teseo[1] = new Code47();
+     ((Code47) teseo[1]).setLanguage(getLanguage());
      
     /*
      teseo[2] = new Pino();
